@@ -1,11 +1,25 @@
-import { Container } from "./styles"
+import "./styles.scss"
+import { ProjectsList } from "./components/ProjectsList"
+import { Header } from "../../components/Header"
+import { Footer } from "../../components/Footer"
 
 interface Props {}
 
-export default function Projects({}: Props) {
+export function Projects({}: Props) {
     return (
-        <Container>
-            <h1>Projects</h1>
-        </Container>
+        <div className="Projects">
+            <Header />
+            <main className="main">
+                <div className="presentation">
+                    <h2>Aqui estao meus principais projetos</h2>
+                    <span>
+                        Uma breve descrição como estão organizados os projetos
+                        apresentados nessa página
+                    </span>
+                </div>
+                <ProjectsList />
+            </main>
+            <Footer />
+        </div>
     )
 }

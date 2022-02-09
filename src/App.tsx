@@ -1,10 +1,10 @@
-import GlobalStyles from "./styles/GlobalStyles"
+import "./styles/global.scss"
+import { Projects } from "./pages/Projects"
 
 export function App() {
     return (
         <>
-            <GlobalStyles />
-            <div>App</div>
+            <Projects></Projects>
         </>
     )
 }
