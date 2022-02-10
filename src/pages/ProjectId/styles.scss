@@ -1,0 +1,53 @@
+@import "../../styles/variables.scss";
+
+.ProjectId {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        max-width: 1000px;
+    }
+
+    .presentation {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links {
+        display: flex;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .thumbnail {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .thumbnail > img {
+        border: 1px solid $gray;
+        width: 100%;
+    }
+
+    .content > p {
+        line-height: 24px;
+        text-indent: 60px;
+        text-align: justify;
+    }
+}
