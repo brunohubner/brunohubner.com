@@ -1,0 +1,16 @@
+@import "../../styles/colors.scss";
+
+.MenuItem {
+    display: flex;
+    width: 100%;
+    padding: 12px 24px;
+    cursor: pointer;
+
+    a {
+        color: $white;
+    }
+
+    &:hover {
+        background-color: $backgroundDark;
+    }
+}

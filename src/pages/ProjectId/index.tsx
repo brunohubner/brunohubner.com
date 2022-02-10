@@ -2,6 +2,7 @@ import "./styles.scss"
 import { Header } from "../../components/Header"
 import { Footer } from "../../components/Footer"
 import { Button } from "../../components/Button"
+import { Menu } from "../../components/Menu"
 import imageExample from "../../temp/example.png"
 import colors from "../../styles/colors"
 
@@ -26,6 +27,7 @@ export function ProjectId({
 }: Props) {
     return (
         <div className="ProjectId">
+            <Menu />
             <Header />
             <main className="main">
                 <div className="presentation">

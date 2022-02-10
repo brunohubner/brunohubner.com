@@ -8,6 +8,8 @@
     align-items: center;
     background-color: $black;
     padding: 0 70px;
+    border-bottom: 1px solid $gray;
+    z-index: 10;
 
     .logo {
         display: flex;

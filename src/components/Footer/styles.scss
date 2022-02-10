@@ -8,4 +8,6 @@
     justify-content: center;
     background-color: $black;
     font-size: 0.9rem;
+    border-top: 1px solid $gray;
+    z-index: 10;
 }
