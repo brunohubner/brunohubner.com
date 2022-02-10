@@ -3,14 +3,31 @@ import instagramIcon from "../../assets/socialMediasIcons/instagram.svg"
 import twitterIcon from "../../assets/socialMediasIcons/twitter.svg"
 import linkedinIcon from "../../assets/socialMediasIcons/linkedin.svg"
 import { VscGithubInverted } from "react-icons/vsc"
+import { useEffect, useState } from "react"
 
 interface Props {}
 
 export function Header({}: Props) {
+    const [displayCursor, setDisplayCursor] = useState("none")
+
+    useEffect(() => {
+        setTimeout(() => {
+            return displayCursor === "none"
+                ? setDisplayCursor("block")
+                : setDisplayCursor("none")
+        }, 500)
+    }, [displayCursor])
+
     return (
         <header className="Header">
             <div className="logo">
                 <a href="/">brunolhubner.com</a>
+                <div
+                    className="cursor"
+                    style={{
+                        display: displayCursor
+                    }}
+                ></div>
             </div>
             <div className="socialMedias">
                 <a
