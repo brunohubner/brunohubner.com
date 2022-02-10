@@ -8,26 +8,28 @@ import { useEffect, useState } from "react"
 interface Props {}
 
 export function Header({}: Props) {
-    const [displayCursor, setDisplayCursor] = useState("none")
+    const [displayCursor, setDisplayCursor] = useState("0")
 
     useEffect(() => {
         setTimeout(() => {
-            return displayCursor === "none"
-                ? setDisplayCursor("block")
-                : setDisplayCursor("none")
+            return displayCursor === "0"
+                ? setDisplayCursor("1")
+                : setDisplayCursor("0")
         }, 500)
     }, [displayCursor])
 
     return (
         <header className="Header">
             <div className="logo">
-                <a href="/">brunolhubner.com</a>
-                <div
-                    className="cursor"
-                    style={{
-                        display: displayCursor
-                    }}
-                ></div>
+                <div className="terminal">
+                    <a href="/">brunohubner.com</a>
+                    <div
+                        className="cursor"
+                        style={{
+                            opacity: displayCursor
+                        }}
+                    ></div>
+                </div>
             </div>
             <div className="socialMedias">
                 <a
