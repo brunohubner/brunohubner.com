@@ -6,26 +6,18 @@ import { Menu } from "../../components/Menu"
 import { ToggleMenu } from "../../components/ToggleMenu"
 import imageExample from "../../temp/example.png"
 import colors from "../../styles/colors"
+import { useProjects } from "../../context/ProjectsContext"
+import { useParams } from "react-router-dom"
+import { PageNotFound } from "../PageNotFound"
 
-interface Props {
-    name: string
-    description: string
-    content: string
-    thumbnail?: string
-    extraImages?: string[]
-    repositoryLink?: string
-    productionLink?: string
-}
+export function ProjectId() {
+    const { projects } = useProjects()
+    const { url_name } = useParams()
 
-export function ProjectId({
-    content,
-    description,
-    extraImages,
-    name,
-    thumbnail,
-    productionLink,
-    repositoryLink
-}: Props) {
+    const project = projects.find(item => item.urlName === url_name)
+
+    if (!project) return <PageNotFound />
+
     return (
         <div className="ProjectId">
             <ToggleMenu />
@@ -33,8 +25,8 @@ export function ProjectId({
             <Header />
             <main className="main">
                 <div className="presentation">
-                    <h1>{name}</h1>
-                    <span>{description}</span>
+                    <h1>{project.name}</h1>
+                    <span>{project.description}</span>
                     <div className="links">
                         <Button
                             label="Código fonte"
@@ -49,9 +41,9 @@ export function ProjectId({
                 </div>
                 <section className="content">
                     <div className="thumbnail">
-                        <img src={imageExample} alt={name} />
+                        <img src={imageExample} alt={project.name} />
                     </div>
-                    <p>{content}</p>
+                    <p>{project.content}</p>
                     {/* <div className="extraImages">
                         {extraImages.map(image => (
                             <img src={image} alt={name}></img>

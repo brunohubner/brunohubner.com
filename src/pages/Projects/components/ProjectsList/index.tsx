@@ -10,13 +10,7 @@ export function ProjectsList({}: Props) {
     return (
         <ul className="ProjectList">
             {projects.map(project => (
-                <ProjectCard
-                    key={project.id}
-                    name={project.name}
-                    description={project.description}
-                    urlName={project.urlName}
-                    thumbnail={project.urlName}
-                />
+                <ProjectCard project={project} />
             ))}
         </ul>
     )
