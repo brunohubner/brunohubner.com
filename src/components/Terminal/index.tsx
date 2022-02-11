@@ -1,6 +1,12 @@
+import { ReactNode } from "react"
 import "./styles.scss"
 
-export function Terminal() {
+interface Props {
+    title?: string
+    children: ReactNode
+}
+
+export function Terminal({ children, title = "brunohubner" }: Props) {
     return (
         <div className="Terminal">
             <div className="header">
@@ -9,12 +15,10 @@ export function Terminal() {
                     <div className="btnYellow"></div>
                     <div className="btnGreen"></div>
                 </div>
-                <div className="title">/home/brunohubner -- 80 x 24</div>
+                <div className="title">{title}</div>
             </div>
             <div className="body">
-                <div className="text">
-                    $ git commit -m "feat: brunohubner.com works"
-                </div>
+                <div className="text">{children}</div>
             </div>
         </div>
     )

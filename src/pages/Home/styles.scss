@@ -14,16 +14,98 @@
         flex-direction: column;
         flex: 1;
         padding: 40px 20px;
-        gap: 60px;
+        gap: 50px;
     }
 
-    .presentation {
+    .profile {
         display: flex;
         gap: 50px;
         justify-content: center;
     }
 
+    .terminalBox {
+        display: flex;
+        width: 600px;
+        height: 400px;
+    }
+
     .devicons {
         max-width: 800px;
+    }
+}
+
+@media (max-width: 420px) {
+    .Home {
+        .main {
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .profile {
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 100%;
+            gap: 20px;
+        }
+
+        .terminalBox {
+            min-width: 300px;
+            max-width: 100%;
+            height: 240px;
+        }
+    }
+}
+
+@media (min-width: 421px) and (max-width: 770px) {
+    .Home {
+        .main {
+            padding: 20px;
+            gap: 30px;
+        }
+
+        .profile {
+            flex-direction: column-reverse;
+            align-items: center;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .terminalBox {
+            min-width: 300px;
+            max-width: 100%;
+            height: 320px;
+        }
+
+        .devicons {
+            max-width: 600px;
+        }
+    }
+}
+
+@media (min-width: 771px) and (max-width: 1080px) {
+    .Home {
+        .main {
+            padding: 20px;
+            gap: 40px;
+        }
+
+        .profile {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 30px;
+        }
+
+        .terminalBox {
+            min-width: 400px;
+            max-width: 100%;
+            height: 300px;
+        }
+
+        .devicons {
+            max-width: 800px;
+        }
     }
 }

@@ -23,3 +23,53 @@
         border-radius: 199px;
     }
 }
+
+@media (max-width: 420px) {
+    .ProfileAvatar {
+        width: 100%;
+
+        .avatarImage {
+            width: 280px;
+            height: 280px;
+            border-radius: 140px;
+        }
+
+        .avatarImage > img {
+            width: 278px;
+            height: 278px;
+            border-radius: 139px;
+        }
+    }
+}
+
+@media (min-width: 421px) and (max-width: 770px) {
+    .ProfileAvatar {
+        .avatarImage {
+            width: 280px;
+            height: 280px;
+            border-radius: 140px;
+        }
+
+        .avatarImage > img {
+            width: 278px;
+            height: 278px;
+            border-radius: 139px;
+        }
+    }
+}
+
+@media (min-width: 771px) and (max-width: 1080px) {
+    .ProfileAvatar {
+        .avatarImage {
+            width: 300px;
+            height: 300px;
+            border-radius: 150px;
+        }
+
+        .avatarImage > img {
+            width: 298px;
+            height: 298px;
+            border-radius: 149px;
+        }
+    }
+}

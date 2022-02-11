@@ -23,7 +23,7 @@ export function ProjectId() {
             <ToggleMenu />
             <Menu selected={url_name} />
             <Header />
-            <main className="main">
+            <main className="mainProject">
                 <div className="presentation">
                     <h1>{project.name}</h1>
                     <span>{project.description}</span>

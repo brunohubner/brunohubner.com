@@ -25,7 +25,7 @@ export function Cursor({
                 width: `${widthInRem}rem`,
                 height: `${heightInRem}rem`,
                 backgroundColor: color,
-                display: "inline-block",
+                // display: "inline-block",
                 opacity
             }}
         ></div>

@@ -10,8 +10,12 @@ export function Home() {
         <div className="Home">
             <Header />
             <main className="main">
-                <section className="presentation">
-                    <Terminal />
+                <section className="profile">
+                    <div className="terminalBox">
+                        <Terminal>
+                            $ git commit -m "feat: brunohubner.com works"
+                        </Terminal>
+                    </div>
                     <ProfileAvatar />
                 </section>
                 <div className="devicons">

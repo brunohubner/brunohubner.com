@@ -9,7 +9,7 @@ export function Header() {
     return (
         <header className="Header">
             <div className="logo">
-                <div className="terminal">
+                <div className="domainCode">
                     <a href="/">brunohubner.com</a>
                     <Cursor widthInRem={0.15} heightInRem={1.1} color="#fff" />
                 </div>
