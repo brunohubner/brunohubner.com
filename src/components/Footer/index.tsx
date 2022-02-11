@@ -1,11 +1,11 @@
 import "./styles.scss"
 
-interface Props {}
+const year = new Date().getFullYear()
 
-export function Footer({}: Props) {
+export function Footer() {
     return (
         <div className="Footer">
-            <span>&copy; Copyright 2022 - Bruno Hubner</span>
+            <span>&copy; Copyright {year} - Bruno Hubner</span>
         </div>
     )
 }

@@ -44,11 +44,6 @@ export function ProjectId() {
                         <img src={imageExample} alt={project.name} />
                     </div>
                     <p>{project.content}</p>
-                    {/* <div className="extraImages">
-                        {extraImages.map(image => (
-                            <img src={image} alt={name}></img>
-                        ))}
-                    </div> */}
                 </section>
             </main>
             <Footer />

@@ -2,9 +2,7 @@ import "./styles.scss"
 import { ProjectCard } from "../ProjectCard"
 import { useProjects } from "../../../../context/ProjectsContext"
 
-interface Props {}
-
-export function ProjectsList({}: Props) {
+export function ProjectsList() {
     const { projects } = useProjects()
 
     return (

@@ -5,9 +5,7 @@ import linkedinIcon from "../../assets/socialMediasIcons/linkedin.svg"
 import { VscGithubInverted } from "react-icons/vsc"
 import { Cursor } from "../../components/Cursor"
 
-interface Props {}
-
-export function Header({}: Props) {
+export function Header() {
     return (
         <header className="Header">
             <div className="logo">

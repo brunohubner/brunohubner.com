@@ -1,8 +1,6 @@
 import "./styles.scss"
 
-interface Props {}
-
-export function PageNotFound({}: Props) {
+export function PageNotFound() {
     return (
         <div className="PageNotFound">
             <h1>PageNotFound</h1>

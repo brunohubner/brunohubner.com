@@ -2,9 +2,7 @@ import "./styles.scss"
 import { VscMenu, VscClose } from "react-icons/vsc"
 import { useToggleMenu } from "../../context/ToggleMenuContext"
 
-interface Props {}
-
-export function ToggleMenu({}: Props) {
+export function ToggleMenu() {
     const { isOpen, toggleMenu } = useToggleMenu()
 
     return (
