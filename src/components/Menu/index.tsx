@@ -1,14 +1,17 @@
+import { useToggleMenu } from "../../context/ToggleMenuContext"
 import { MenuItem } from "../MenuItem"
 import "./styles.scss"
 
 interface Props {}
 
 export function Menu({}: Props) {
+    const { isOpen } = useToggleMenu()
+
     return (
         <aside
             className="Menu"
             style={{
-                display: "none"
+                display: isOpen ? "flex" : "none"
             }}
         >
             <ul>
