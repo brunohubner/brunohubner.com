@@ -1,0 +1,66 @@
+@import "../../styles/colors.scss";
+
+.Terminal {
+    margin-top: 20px; // remove-me
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 36px;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        background-color: #3a373c;
+        border-top: 1px solid #8888;
+        border-bottom: 1px solid #000;
+    }
+
+    .buttons {
+        position: absolute;
+        left: 11px;
+        top: 11px;
+        display: flex;
+        gap: 11px;
+    }
+
+    .buttons > div {
+        width: 14px;
+        height: 14px;
+        border-radius: 8px;
+    }
+
+    .btnRed {
+        background-color: #ee5c54;
+    }
+
+    .btnYellow {
+        background-color: #f8bc45;
+    }
+
+    .btnGreen {
+        background-color: #5dc942;
+    }
+
+    .title {
+        font-size: 0.9rem;
+        color: #ddd;
+    }
+
+    .body {
+        background-color: #1e1e1e;
+        border-radius: 0 0 10px 10px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 6px;
+    }
+
+    .text {
+        font-size: 0.84rem;
+    }
+}
