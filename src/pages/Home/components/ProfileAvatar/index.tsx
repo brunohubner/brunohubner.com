@@ -5,7 +5,7 @@ export function ProfileAvatar() {
     return (
         <div className="ProfileAvatar">
             <div className="avatarImage">
-                <img src="" alt="Bruno Hubner" />
+                <img src={avatar} alt="Bruno Hubner" />
             </div>
         </div>
     )

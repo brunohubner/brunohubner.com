@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
     width: 100%;
     background-color: $backgroundDark;
 
@@ -14,12 +13,17 @@
         align-items: center;
         flex-direction: column;
         flex: 1;
-        padding: 20px;
+        padding: 40px 20px;
+        gap: 60px;
     }
 
     .presentation {
         display: flex;
         gap: 50px;
         justify-content: center;
+    }
+
+    .devicons {
+        max-width: 800px;
     }
 }

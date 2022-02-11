@@ -3,6 +3,7 @@ import { Terminal } from "../../components/Terminal"
 import { ProfileAvatar } from "./components/ProfileAvatar"
 import { Header } from "../../components/Header"
 import { Footer } from "../../components/Footer"
+import { DevIcons } from "./components/DevIcons"
 
 export function Home() {
     return (
@@ -13,6 +14,9 @@ export function Home() {
                     <Terminal />
                     <ProfileAvatar />
                 </section>
+                <div className="devicons">
+                    <DevIcons />
+                </div>
             </main>
             <Footer />
         </div>
