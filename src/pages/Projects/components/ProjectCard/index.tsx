@@ -1,19 +1,22 @@
 import "./styles.scss"
 import image from "../../../../temp/example.png"
 
-interface Props {}
+interface Props {
+    name: string
+    description: string
+    thumbnail: string
+    urlName: string
+}
 
-export function ProjectCard({}: Props) {
+export function ProjectCard({ name, description, thumbnail, urlName }: Props) {
     return (
         <li className="ProjectCard">
             <div className="label">
-                <h2>Nome do Projeto</h2>
-                <span>
-                    Esta é uma breve descrição sobre o projeto apresentado.
-                </span>
+                <h2>{name}</h2>
+                <span>{description}</span>
             </div>
             <div className="background">
-                <img src={image} alt="" />
+                <img src={image} alt={name} />
             </div>
         </li>
     )

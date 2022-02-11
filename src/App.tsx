@@ -6,13 +6,13 @@ import { ToggleMenuProvider } from "./context/ToggleMenuContext"
 export function App() {
     return (
         <ToggleMenuProvider>
-            {/* <Projects></Projects> */}
-            <ProjectId
+            <Projects></Projects>
+            {/* <ProjectId
                 name="Nome do Projeto"
                 description="Uma breve descrição sobre este projeto que está sendo apresentado"
                 content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam autem magni possimus aut saepe delectus vel, aliquam voluptates provident alias porro voluptatum natus! Eaque ullam numquam aut quia, omnis vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam autem magni possimus aut saepe delectus vel, aliquam voluptates provident alias porro voluptatum natus! Eaque ullam numquam aut quia, omnis vel.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam autem magni possimus aut saepe delectus vel, aliquam voluptates provident alias porro voluptatum natus! Eaque ullam numquam aut quia, omnis vel."
-            />
+            /> */}
         </ToggleMenuProvider>
     )
 }
