@@ -22,7 +22,8 @@ import {
     SiVuedotjs,
     SiGraphql,
     SiApollographql,
-    SiRedis
+    SiRedis,
+    SiNextdotjs
 } from "react-icons/si"
 
 export function DevIcons() {
@@ -48,6 +49,7 @@ export function DevIcons() {
             <SiTypescript size={42} />
             <SiApollographql size={42} />
             <DiDocker size={48} />
+            <SiNextdotjs size={42} />
             <DiHeroku size={48} />
         </div>
     )
