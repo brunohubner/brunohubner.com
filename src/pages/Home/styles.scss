@@ -1,0 +1,17 @@
+@import "../../styles/colors.scss";
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: $backgroundDark;
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        max-width: 1200px;
+    }
+}
