@@ -11,7 +11,7 @@ export function Menu({}: Props) {
         <aside
             className="Menu"
             style={{
-                display: isOpen ? "flex" : "none"
+                left: isOpen ? "0" : "-250px"
             }}
         >
             <ul>

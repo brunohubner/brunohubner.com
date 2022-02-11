@@ -15,7 +15,12 @@
     z-index: 15;
 
     &:hover {
-        // background-color: $backgroundDark;
         filter: brightness(0.8);
+    }
+}
+
+@media (max-width: 420px) {
+    .ToggleMenu {
+        top: 30px;
     }
 }
