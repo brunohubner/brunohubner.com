@@ -3,9 +3,11 @@ import { useToggleMenu } from "../../context/ToggleMenuContext"
 import { MenuItem } from "../MenuItem"
 import "./styles.scss"
 
-interface Props {}
+interface Props {
+    selected?: string
+}
 
-export function Menu({}: Props) {
+export function Menu({ selected }: Props) {
     const { isOpen } = useToggleMenu()
     const { projects } = useProjects()
 
@@ -19,6 +21,7 @@ export function Menu({}: Props) {
                         key={project.id}
                         label={project.name}
                         href={project.urlName}
+                        selected={project.urlName === selected}
                     />
                 ))}
             </ul>

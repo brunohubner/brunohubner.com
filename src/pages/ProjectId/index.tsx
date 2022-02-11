@@ -21,7 +21,7 @@ export function ProjectId() {
     return (
         <div className="ProjectId">
             <ToggleMenu />
-            <Menu />
+            <Menu selected={url_name} />
             <Header />
             <main className="main">
                 <div className="presentation">
