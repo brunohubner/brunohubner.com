@@ -9,9 +9,17 @@
     background-color: $backgroundDark;
 
     .main {
+        width: 100%;
         display: flex;
+        align-items: center;
         flex-direction: column;
         flex: 1;
-        max-width: 1200px;
+        padding: 20px;
+    }
+
+    .presentation {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
     }
 }

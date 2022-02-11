@@ -1,9 +1,12 @@
 import "./styles.scss"
+import avatar from "../../../../temp/avatar.jpeg"
 
 export function ProfileAvatar() {
     return (
         <div className="ProfileAvatar">
-            <h1>ProfileAvatar</h1>
+            <div className="avatarImage">
+                <img src="" alt="Bruno Hubner" />
+            </div>
         </div>
     )
 }

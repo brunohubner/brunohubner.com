@@ -1,2 +1,25 @@
+@import "../../../../styles/colors.scss";
+
 .ProfileAvatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+
+    .avatarImage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+        background-color: $gray;
+    }
+
+    .avatarImage > img {
+        width: 398px;
+        height: 398px;
+        border-radius: 199px;
+    }
 }
