@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react"
 
 interface Props {
-    widthInRem: number
-    heightInRem: number
-    color: string
+    widthInRem?: number
+    heightInRem?: number
+    color?: string
 }
 
-export function Cursor({ color, heightInRem, widthInRem }: Props) {
+export function Cursor({
+    color = "#fff",
+    heightInRem = 1.1,
+    widthInRem = 0.15
+}: Props) {
     const [opacity, setOpacity] = useState("0")
 
     useEffect(() => {
@@ -21,6 +25,7 @@ export function Cursor({ color, heightInRem, widthInRem }: Props) {
                 width: `${widthInRem}rem`,
                 height: `${heightInRem}rem`,
                 backgroundColor: color,
+                display: "inline-block",
                 opacity
             }}
         ></div>
