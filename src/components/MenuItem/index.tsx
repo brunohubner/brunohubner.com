@@ -1,5 +1,5 @@
 import "./styles.scss"
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 interface Props {
     label: string
@@ -7,9 +7,11 @@ interface Props {
 }
 
 export function MenuItem({ href, label }: Props) {
+    const navigate = useNavigate()
+
     return (
-        <li className="MenuItem">
-            <a href={href}>{label}</a>
+        <li onClick={() => navigate(`/projects/${href}`)} className="MenuItem">
+            {label}
         </li>
     )
 }
