@@ -1,0 +1,12 @@
+@import "../../styles/colors.scss";
+
+.Messenger.textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 225px;
+    max-height: 225px;
+
+    background-color: #0000;
+    color: $white;
+    font-family: "Courier Prime", monospace;
+}

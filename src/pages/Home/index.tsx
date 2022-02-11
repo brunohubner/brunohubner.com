@@ -3,7 +3,9 @@ import { Terminal } from "../../components/Terminal"
 import { ProfileAvatar } from "./components/ProfileAvatar"
 import { Header } from "../../components/Header"
 import { Footer } from "../../components/Footer"
+import { Messenger } from "../../components/Messenger"
 import { DevIcons } from "./components/DevIcons"
+import { ProjectsLink } from "./components/ProjectsLink"
 
 export function Home() {
     return (
@@ -20,6 +22,15 @@ export function Home() {
                 </section>
                 <div className="devicons">
                     <DevIcons />
+                </div>
+                <div className="interactive">
+                    <ProjectsLink />
+                    <div className="messenger">
+                        <Messenger
+                            title="chat"
+                            placeholder="Envie uma mensagem para Bruno"
+                        />
+                    </div>
                 </div>
             </main>
             <Footer />

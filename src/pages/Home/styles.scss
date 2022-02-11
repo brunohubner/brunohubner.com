@@ -32,6 +32,20 @@
     .devicons {
         max-width: 800px;
     }
+
+    .interactive {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 60px;
+    }
+
+    .messenger {
+        display: flex;
+        width: 500px;
+        height: 281px;
+    }
 }
 
 @media (max-width: 420px) {
