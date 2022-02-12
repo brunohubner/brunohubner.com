@@ -1,43 +1,68 @@
 @import "../../styles/colors.scss";
 
-.Messenger.textarea {
-    resize: none;
+.Messenger {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
 
-    min-width: 100%;
-    max-width: 100%;
+    .textarea {
+        resize: none;
 
-    min-height: 225px;
-    max-height: 225px;
+        min-width: 100%;
+        max-width: 100%;
 
-    background-color: #0000;
-    color: $white;
-    font-family: "Courier Prime", monospace;
+        min-height: 225px;
+        max-height: 225px;
+
+        background-color: #0000;
+        color: $white;
+        font-family: "Courier Prime", monospace;
+    }
+
+    .sendButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
 }
 
 @media (max-width: 360px) {
-    .Messenger.textarea {
-        min-height: 130px;
-        max-height: 130px;
+    .Messenger {
+        .textarea {
+            min-height: 130px;
+            max-height: 130px;
+        }
     }
 }
 
 @media (min-width: 361px) and (max-width: 375px) {
-    .Messenger.textarea {
-        min-height: 140px;
-        max-height: 140px;
+    .Messenger {
+        .textarea {
+            min-height: 140px;
+            max-height: 140px;
+        }
     }
 }
 
 @media (min-width: 376px) and (max-width: 390px) {
-    .Messenger.textarea {
-        min-height: 150px;
-        max-height: 150px;
+    .Messenger {
+        .textarea {
+            min-height: 150px;
+            max-height: 150px;
+        }
     }
 }
 
 @media (min-width: 391px) and (max-width: 420px) {
-    .Messenger.textarea {
-        min-height: 160px;
-        max-height: 160px;
+    .Messenger {
+        .textarea {
+            min-height: 160px;
+            max-height: 160px;
+        }
     }
 }

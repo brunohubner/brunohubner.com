@@ -7,7 +7,9 @@
         "dev": "react-scripts start",
         "build": "react-scripts build",
         "start": "serve -s build",
-        "start:local": "yarn build && yarn start"
+        "start:local": "yarn build && yarn start",
+        "lint": "eslint src",
+        "prettier:fix": "prettier --write src"
     },
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.2",
