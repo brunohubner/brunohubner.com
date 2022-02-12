@@ -1,12 +1,43 @@
 @import "../../styles/colors.scss";
 
 .Messenger.textarea {
+    resize: none;
+
     min-width: 100%;
     max-width: 100%;
+
     min-height: 225px;
     max-height: 225px;
 
     background-color: #0000;
     color: $white;
     font-family: "Courier Prime", monospace;
+}
+
+@media (max-width: 360px) {
+    .Messenger.textarea {
+        min-height: 130px;
+        max-height: 130px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 375px) {
+    .Messenger.textarea {
+        min-height: 140px;
+        max-height: 140px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 390px) {
+    .Messenger.textarea {
+        min-height: 150px;
+        max-height: 150px;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 420px) {
+    .Messenger.textarea {
+        min-height: 160px;
+        max-height: 160px;
+    }
 }

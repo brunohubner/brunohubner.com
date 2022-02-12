@@ -48,11 +48,49 @@
     }
 }
 
+// Projects Link and Messenger
+@media (max-width: 360px) {
+    .Home {
+        .interactive > div {
+            width: 320px;
+            height: 180px;
+        }
+    }
+}
+
+@media (min-width: 361px) and (max-width: 375px) {
+    .Home {
+        .interactive > div {
+            width: 335px;
+            height: 189px;
+        }
+    }
+}
+
+@media (min-width: 376px) and (max-width: 390px) {
+    .Home {
+        .interactive > div {
+            width: 350px;
+            height: 197px;
+        }
+    }
+}
+
+@media (min-width: 391px) and (max-width: 420px) {
+    .Home {
+        .interactive > div {
+            width: 370px;
+            height: 208px;
+        }
+    }
+}
+
+// Profile and DevIcons and page orientation
 @media (max-width: 420px) {
     .Home {
         .main {
             padding: 20px;
-            gap: 20px;
+            gap: 40px;
         }
 
         .profile {
@@ -66,6 +104,11 @@
             min-width: 300px;
             max-width: 100%;
             height: 240px;
+        }
+
+        .interactive {
+            flex-direction: column;
+            gap: 40px;
         }
     }
 }
@@ -93,6 +136,10 @@
 
         .devicons {
             max-width: 600px;
+        }
+
+        .interactive {
+            flex-direction: column;
         }
     }
 }
