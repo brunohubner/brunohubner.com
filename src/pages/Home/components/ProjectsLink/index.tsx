@@ -1,11 +1,14 @@
 import "./styles.scss"
 import image from "../../../../temp/projects.png"
+import { useNavigate } from "react-router-dom"
 
 interface Props {}
 
 export function ProjectsLink({}: Props) {
+    const navigate = useNavigate()
+
     return (
-        <div className="ProjectsLink">
+        <div onClick={() => navigate("/projects")} className="ProjectsLink">
             <div className="label">
                 <h2>Meus Projetos Pessois</h2>
                 <span>

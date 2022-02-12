@@ -1,5 +1,6 @@
 import "./styles.scss"
 import { useNavigate } from "react-router-dom"
+import { useToggleMenu } from "../../context/ToggleMenuContext"
 
 interface Props {
     label: string
@@ -9,10 +10,16 @@ interface Props {
 
 export function MenuItem({ href, label, selected }: Props) {
     const navigate = useNavigate()
+    const { toggleMenu } = useToggleMenu()
+
+    const handleNavigate = () => {
+        navigate(`/projects/${href}`)
+        toggleMenu()
+    }
 
     return (
         <li
-            onClick={() => navigate(`/projects/${href}`)}
+            onClick={handleNavigate}
             className={`${selected ? "selected" : ""} MenuItem`}
         >
             {label}
