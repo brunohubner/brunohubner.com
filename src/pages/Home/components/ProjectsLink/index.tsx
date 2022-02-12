@@ -2,9 +2,7 @@ import "./styles.scss"
 import image from "../../../../temp/projects.png"
 import { useNavigate } from "react-router-dom"
 
-interface Props {}
-
-export function ProjectsLink({}: Props) {
+export function ProjectsLink() {
     const navigate = useNavigate()
 
     return (
