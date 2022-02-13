@@ -170,3 +170,19 @@
         }
     }
 }
+
+@media (min-width: 1367px) {
+    .Home {
+        .main {
+            gap: 80px;
+        }
+
+        .profile {
+            gap: 80px;
+        }
+
+        .interactive {
+            gap: 40px;
+        }
+    }
+}
