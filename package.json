@@ -7,7 +7,7 @@
         "dev": "react-scripts start",
         "build": "react-scripts build",
         "start": "serve -s build",
-        "start:local": "yarn build && yarn start",
+        "start:local": "npm run build && npm start",
         "lint": "eslint src",
         "prettier:fix": "prettier --write src"
     },
@@ -20,7 +20,6 @@
         "@types/react": "^17.0.39",
         "@types/react-dom": "^17.0.11",
         "@types/react-router-dom": "^5.3.3",
-        "@types/styled-components": "^5.1.22",
         "axios": "^0.25.0",
         "git-commit-msg-linter": "^4.0.7",
         "prettier": "^2.5.1",
@@ -31,7 +30,6 @@
         "react-scripts": "5.0.0",
         "sass": "^1.49.7",
         "serve": "^13.0.2",
-        "styled-components": "^5.3.3",
         "typescript": "^4.5.5",
         "web-vitals": "^2.1.4"
     },
