@@ -5,10 +5,7 @@
     width: 100%;
     padding: 12px 24px;
     cursor: pointer;
-
-    a {
-        color: $white;
-    }
+    text-shadow: 3px 3px 10px #000;
 
     &:hover {
         background-color: $backgroundDark;
