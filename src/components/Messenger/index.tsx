@@ -4,6 +4,7 @@ import { SendButton } from "../SendButton"
 import { TextareaHTMLAttributes, useState } from "react"
 import { sendMessageService } from "../../services/sendMessageService"
 import { activateBackend } from "../../services/activateBackend"
+import { createButtonMetrics } from "../../analytics/createButtonMetrics"
 
 interface Props extends TextareaHTMLAttributes<HTMLTextAreaElement> {
     title: string
@@ -24,6 +25,7 @@ export function Messenger({ title, ...rest }: Props) {
         try {
             await sendMessageService(message)
             setPlaceholder("Mensagem enviada para Bruno")
+            createButtonMetrics("Click in button 'send message for me'")
         } catch {
             setPlaceholder("Não foi possível enviar a mensagem")
         } finally {

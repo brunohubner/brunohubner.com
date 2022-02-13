@@ -1,5 +1,4 @@
 import axios from "axios"
+import { env } from "../config/env"
 
-const baseURL = process.env.REACT_APP_API_URL || "http://localhost:3333"
-
-export const api = axios.create({ baseURL })
+export const api = axios.create({ baseURL: env.API_URL })
