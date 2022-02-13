@@ -3,6 +3,7 @@ import { Terminal } from "../Terminal"
 import { SendButton } from "../SendButton"
 import { TextareaHTMLAttributes, useState } from "react"
 import { sendMessageService } from "../../services/sendMessageService"
+import { activateBackend } from "../../services/activateBackend"
 
 interface Props extends TextareaHTMLAttributes<HTMLTextAreaElement> {
     title: string
@@ -12,6 +13,7 @@ export function Messenger({ title, ...rest }: Props) {
     const [message, setMessage] = useState("")
     const [sended, setSended] = useState(false)
     const [placeholder, setPlaceholder] = useState("")
+    const [terminalClicked, setTerminalClicked] = useState(false)
 
     const handleMessage = (message: string) => {
         if (message.length > 3000) return
@@ -30,10 +32,17 @@ export function Messenger({ title, ...rest }: Props) {
         }
     }
 
+    const handleFirstClick = () => {
+        if (!terminalClicked) {
+            activateBackend()
+            setTerminalClicked(true)
+        }
+    }
+
     if (sended) rest.placeholder = placeholder
 
     return (
-        <div className="Messenger">
+        <div onClick={() => handleFirstClick()} className="Messenger">
             <Terminal title={title}>
                 <textarea
                     value={message}
