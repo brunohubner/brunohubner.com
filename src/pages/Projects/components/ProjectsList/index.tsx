@@ -8,7 +8,7 @@ export function ProjectsList() {
     return (
         <ul className="ProjectList">
             {projects.map(project => (
-                <ProjectCard project={project} />
+                <ProjectCard key={project.id} project={project} />
             ))}
         </ul>
     )
