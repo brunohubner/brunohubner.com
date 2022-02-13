@@ -2,6 +2,7 @@ import "./styles.scss"
 import { Terminal } from "../Terminal"
 import { SendButton } from "../SendButton"
 import { TextareaHTMLAttributes, useState } from "react"
+import { sendMessageService } from "../../services/sendMessageService"
 
 interface Props extends TextareaHTMLAttributes<HTMLTextAreaElement> {
     title: string
@@ -10,19 +11,26 @@ interface Props extends TextareaHTMLAttributes<HTMLTextAreaElement> {
 export function Messenger({ title, ...rest }: Props) {
     const [message, setMessage] = useState("")
     const [sended, setSended] = useState(false)
+    const [placeholder, setPlaceholder] = useState("")
 
     const handleMessage = (message: string) => {
         if (message.length > 3000) return
         setMessage(message)
     }
 
-    const handleSendMessage = () => {
-        console.log(message)
-        setMessage("")
-        setSended(true)
+    const handleSendMessage = async () => {
+        try {
+            await sendMessageService(message)
+            setPlaceholder("Mensagem enviada para Bruno")
+        } catch {
+            setPlaceholder("Não foi possível enviar a mensagem")
+        } finally {
+            setMessage("")
+            setSended(true)
+        }
     }
 
-    if (sended) rest.placeholder = "Mensagem enviada para Bruno"
+    if (sended) rest.placeholder = placeholder
 
     return (
         <div className="Messenger">
