@@ -6,6 +6,14 @@ import { Footer } from "../../components/Footer"
 import { Messenger } from "../../components/Messenger"
 import { DevIcons } from "./components/DevIcons"
 import { ProjectsLink } from "./components/ProjectsLink"
+import profileJson from "../../data/profile.json"
+
+type Profile = {
+    avatarUrl: string
+    description: string
+}
+
+const profile = profileJson as Profile
 
 export function Home() {
     return (
@@ -14,9 +22,7 @@ export function Home() {
             <main className="main">
                 <section className="profile">
                     <div className="terminalBox">
-                        <Terminal>
-                            $ git commit -m "feat: brunohubner.com works"
-                        </Terminal>
+                        <Terminal>{profile.description}</Terminal>
                     </div>
                     <ProfileAvatar />
                 </section>
