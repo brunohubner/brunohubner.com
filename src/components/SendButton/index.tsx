@@ -6,12 +6,17 @@ interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
     onClick(): void
 }
 
-export function SendButton({ onClick, ...rest }: Props) {
+export function SendButton({ onClick, disabled = false, ...rest }: Props) {
     return (
         <button
             type="button"
             onClick={() => onClick()}
             className="SendButton"
+            style={{
+                color: disabled ? "#ddd" : "#fff",
+                cursor: disabled ? "not-allowed" : "pointer"
+            }}
+            disabled={disabled}
             {...rest}
         >
             <IoSendSharp size={30} />

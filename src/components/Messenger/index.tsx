@@ -15,6 +15,7 @@ export function Messenger({ title, ...rest }: Props) {
     const [sended, setSended] = useState(false)
     const [placeholder, setPlaceholder] = useState("")
     const [terminalClicked, setTerminalClicked] = useState(false)
+    const [loading, setLoading] = useState(false)
 
     const handleMessage = (message: string) => {
         if (message.length > 3000) return
@@ -23,6 +24,7 @@ export function Messenger({ title, ...rest }: Props) {
 
     const handleSendMessage = async () => {
         try {
+            setLoading(true)
             await sendMessageService(message)
             setPlaceholder("Mensagem enviada para Bruno")
             createButtonMetrics("Click in button 'send message for me'")
@@ -31,6 +33,7 @@ export function Messenger({ title, ...rest }: Props) {
         } finally {
             setMessage("")
             setSended(true)
+            setLoading(false)
         }
     }
 
@@ -54,7 +57,7 @@ export function Messenger({ title, ...rest }: Props) {
                 />
                 <div className="sendButton">
                     <SendButton
-                        disabled={message.trim().length < 1}
+                        disabled={message.trim().length < 1 || loading}
                         onClick={handleSendMessage}
                     />
                 </div>
