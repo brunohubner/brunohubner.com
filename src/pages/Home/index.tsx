@@ -6,14 +6,15 @@ import { Footer } from "../../components/Footer"
 import { Messenger } from "../../components/Messenger"
 import { DevIcons } from "./components/DevIcons"
 import { ProjectsLink } from "./components/ProjectsLink"
-import profileJson from "../../data/profile.json"
+import homeDataJson from "../../data/home.json"
 
-type Profile = {
-    avatarUrl: string
+type HomeData = {
+    profileAvatar: string
     description: string
+    projectLinkImg: string
 }
 
-const profile = profileJson as Profile
+const homeData = homeDataJson as HomeData
 
 export function Home() {
     return (
@@ -22,15 +23,15 @@ export function Home() {
             <main className="main">
                 <section className="profile">
                     <div className="terminalBox">
-                        <Terminal>{profile.description}</Terminal>
+                        <Terminal>{homeData.description}</Terminal>
                     </div>
-                    <ProfileAvatar />
+                    <ProfileAvatar img={homeData.profileAvatar} />
                 </section>
                 <div className="devicons">
                     <DevIcons />
                 </div>
                 <div className="interactive">
-                    <ProjectsLink />
+                    <ProjectsLink img={homeData.projectLinkImg} />
                     <div className="messenger">
                         <Messenger
                             title="chat"

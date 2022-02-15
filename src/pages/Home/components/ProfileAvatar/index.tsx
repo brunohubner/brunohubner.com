@@ -1,11 +1,14 @@
 import "./styles.scss"
-import avatar from "../../../../temp/avatar.jpeg"
 
-export function ProfileAvatar() {
+interface Props {
+    img: string
+}
+
+export function ProfileAvatar({ img }: Props) {
     return (
         <div className="ProfileAvatar">
             <div className="avatarImage">
-                <img src={avatar} alt="Bruno Hubner" />
+                <img src={img} alt="Bruno Hubner" />
             </div>
         </div>
     )

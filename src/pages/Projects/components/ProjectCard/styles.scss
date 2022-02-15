@@ -41,6 +41,35 @@
         .label {
             background-color: #0000;
             color: #0000;
+            text-shadow: none;
         }
+    }
+}
+
+@media (max-width: 360px) {
+    .ProjectCard {
+        width: 320px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 375px) {
+    .ProjectCard {
+        width: 335px;
+        height: 189px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 390px) {
+    .ProjectCard {
+        width: 350px;
+        height: 197px;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 420px) {
+    .ProjectCard {
+        width: 374px;
+        height: 210px;
     }
 }

@@ -1,8 +1,11 @@
 import "./styles.scss"
-import image from "../../../../temp/projects.png"
 import { useNavigate } from "react-router-dom"
 
-export function ProjectsLink() {
+interface Props {
+    img: string
+}
+
+export function ProjectsLink({ img }: Props) {
     const navigate = useNavigate()
 
     return (
@@ -15,7 +18,7 @@ export function ProjectsLink() {
                 </span>
             </div>
             <div className="background">
-                <img src={image} alt="Projetos" />
+                <img src={img} alt="Projetos" />
             </div>
         </div>
     )

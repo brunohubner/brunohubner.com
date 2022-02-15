@@ -1,5 +1,4 @@
 import "./styles.scss"
-import image from "../../../../temp/example.png"
 import { useNavigate } from "react-router-dom"
 import { Project } from "../../../../models/Project"
 
@@ -21,7 +20,7 @@ export function ProjectCard({ project }: Props) {
                 <span>{project.description}</span>
             </div>
             <div className="background">
-                <img src={image} alt={project.name} />
+                <img src={project.thumbnail} alt={project.name} />
             </div>
         </li>
     )
