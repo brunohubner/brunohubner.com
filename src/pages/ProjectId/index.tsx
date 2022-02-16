@@ -8,7 +8,6 @@ import colors from "../../styles/colors"
 import { useProjects } from "../../context/ProjectsContext"
 import { useParams } from "react-router-dom"
 import { PageNotFound } from "../PageNotFound"
-import { createButtonMetrics } from "../../analytics/createButtonMetrics"
 
 export function ProjectId() {
     const { projects } = useProjects()
@@ -37,11 +36,6 @@ export function ProjectId() {
                                 <Button
                                     label="Código fonte"
                                     bgColor={colors.primaryDark}
-                                    onClick={() => {
-                                        createButtonMetrics(
-                                            "Click in button 'Código Fonte'"
-                                        )
-                                    }}
                                 />
                             </a>
                         ) : (
@@ -57,11 +51,6 @@ export function ProjectId() {
                                     label="Link do Projeto"
                                     color={colors.black}
                                     bgColor={colors.white}
-                                    onClick={() => {
-                                        createButtonMetrics(
-                                            "Click in button 'Link da Projeto'"
-                                        )
-                                    }}
                                 />
                             </a>
                         ) : (

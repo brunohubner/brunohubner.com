@@ -5,7 +5,6 @@ import linkedinIcon from "../../assets/socialMediasIcons/linkedin.svg"
 import { VscGithubInverted } from "react-icons/vsc"
 import { Cursor } from "../../components/Cursor"
 import { Link } from "react-router-dom"
-import { createButtonMetrics } from "../../analytics/createButtonMetrics"
 
 export function Header() {
     return (
@@ -22,9 +21,6 @@ export function Header() {
                     target="_blank"
                     rel="noreferrer"
                     title="@brunohubner01"
-                    onClick={() => {
-                        createButtonMetrics("Click in button 'Instagram'")
-                    }}
                 >
                     <img
                         src={instagramIcon}
@@ -36,9 +32,6 @@ export function Header() {
                     target="_blank"
                     rel="noreferrer"
                     title="@brunohubner01"
-                    onClick={() => {
-                        createButtonMetrics("Click in button 'Twitter'")
-                    }}
                 >
                     <img src={twitterIcon} alt="twitter.com/brunohubner01" />
                 </a>
@@ -47,9 +40,6 @@ export function Header() {
                     target="_blank"
                     rel="noreferrer"
                     title="@brunohubner01"
-                    onClick={() => {
-                        createButtonMetrics("Click in button 'LinkedIn'")
-                    }}
                 >
                     <img
                         src={linkedinIcon}
@@ -61,9 +51,6 @@ export function Header() {
                     target="_blank"
                     rel="noreferrer"
                     title="@brunohubner"
-                    onClick={() => {
-                        createButtonMetrics("Click in button 'Github'")
-                    }}
                 >
                     <VscGithubInverted size={32} color="#fff" />
                 </a>
