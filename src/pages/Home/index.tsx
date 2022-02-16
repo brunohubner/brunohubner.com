@@ -10,7 +10,6 @@ import homeDataJson from "../../data/home.json"
 
 type HomeData = {
     profileAvatar: string
-    description: string
     projectLinkImg: string
 }
 
@@ -23,7 +22,41 @@ export function Home() {
             <main className="main">
                 <section className="profile">
                     <div className="terminalBox">
-                        <Terminal>{homeData.description}</Terminal>
+                        <Terminal>
+                            <div className="bio pcBio">
+                                <p>
+                                    Programador Full Stack, cursando o último
+                                    período de Análise e Desenvolvimento de
+                                    Sistemas especialista em desenvolvimento de
+                                    aplicações completas para web utilizando as
+                                    linguagens JavaScript JavaScript,
+                                    TypeScript, Python, Java, HTML e CSS.
+                                </p>
+                                <p>
+                                    Sólida experiência com frameworks front-end
+                                    como React, NextJs, GraphQl Apollo Client ,
+                                    Sass, Styled Components e frameworks backend
+                                    como Express, GraphQl Apollo Server, Json
+                                    Web Token, Bcrypt, TypeORM, Knex Query
+                                    Builder, Prisma e Mongoose.
+                                </p>
+                                <p>
+                                    Além de esperiência com SQL e com os banco
+                                    de dados PostgreSQL, MySQL, MongoDB e Redis.
+                                </p>
+                            </div>
+                            <div className="bio mobileBio">
+                                <p>
+                                    Programador Full Stack, cursando o último
+                                    período de Análise e Desenvolvimento de
+                                    Sistemas especialista em desenvolvimento de
+                                    aplicações completas para web utilizando
+                                    JavaScript JavaScript, TypeScript, React,
+                                    Node, Express Python, Java, HTML, CSS, SQL,
+                                    PostgreSQL e MongoDB.
+                                </p>
+                            </div>
+                        </Terminal>
                     </div>
                     <ProfileAvatar img={homeData.profileAvatar} />
                 </section>
