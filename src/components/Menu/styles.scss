@@ -8,10 +8,12 @@
     background-color: $black;
     box-shadow: 0 0 12px #000;
     border-right: 1px solid $gray;
-    padding-top: 60px;
+    padding: 60px 0;
     top: 0;
     transition: all 0.2s;
     z-index: 5;
+    overflow-x: hidden;
+    overflow-y: scroll;
 
     ul {
         display: flex;
