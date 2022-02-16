@@ -2,7 +2,7 @@
     {
         "id": "19",
         "name": "Billing Cycles",
-        "description": "Gerenciador de fluxo de financeiro mensal",
+        "description": "Gerenciador de fluxo financeiro mensal",
         "content": "Billing Cycles é um sistema completo para o gerenciamento mensal de receitas e gastos. Ao fazer o cadastro na página você pode fazer o login e registrar no sistema o nome, valor, e o status de pagamento das transações finaceira do seu mês. O sistema conta também com um dashboard informando seu saldo atual com base em todas as suas transações. Todos os seus dados ficam salvos na nuvem em um banco de dados criptogrado.",
         "urlName": "billing-cycles",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fbilling_cycles_thumb.png?alt=media&token=63acbe67-dd4f-4d83-933b-3c6ed8d1c5dd",

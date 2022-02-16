@@ -15,7 +15,7 @@ export function Projects() {
                         para fins didáticos. Nenhum desses projetos são
                         utilizados para fins lucrativos. Na página de cada
                         projeto você tem acesso ao link do código fonte, ao link
-                        de acesso para o projeto functionando online, além de
+                        de acesso para o projeto funcionando online, além de
                         algumas imagens e a explicação do mesmo.
                     </span>
                 </div>
