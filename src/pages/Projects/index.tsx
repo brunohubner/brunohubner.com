@@ -9,10 +9,14 @@ export function Projects() {
             <Header />
             <main className="main">
                 <div className="presentation">
-                    <h2>Aqui estao meus principais projetos</h2>
+                    <h2>Alguns de meus projetos de Código Aberto</h2>
                     <span>
-                        Uma breve descrição como estão organizados os projetos
-                        apresentados nessa página
+                        Os projetos listados abaixo foram desenvolvidos por mim
+                        para fins didáticos. Nenhum desses projetos são
+                        utilizados para fins lucrativos. Na página de cada
+                        projeto você tem acesso ao link do código fonte, ao link
+                        de acesso para o projeto functionando online, além de
+                        algumas imagens e a explicação do mesmo.
                     </span>
                 </div>
                 <ProjectsList />
