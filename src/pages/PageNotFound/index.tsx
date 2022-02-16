@@ -1,9 +1,5 @@
-import "./styles.scss"
+import { Navigate } from "react-router-dom"
 
 export function PageNotFound() {
-    return (
-        <div className="PageNotFound">
-            <h1>PageNotFound</h1>
-        </div>
-    )
+    return <Navigate to="/" />
 }
