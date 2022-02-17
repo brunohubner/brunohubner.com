@@ -22,4 +22,9 @@
     .presentation > span {
         text-shadow: 3px 3px 10px #000;
     }
+
+    .presentation > span {
+        max-width: 1100px;
+        text-indent: 25px;
+    }
 }
