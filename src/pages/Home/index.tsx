@@ -29,8 +29,8 @@ export function Home() {
                                     período de Análise e Desenvolvimento de
                                     Sistemas especialista em desenvolvimento de
                                     aplicações completas para web utilizando as
-                                    linguagens JavaScript JavaScript,
-                                    TypeScript, Python, Java, HTML e CSS.
+                                    linguagens JavaScript, TypeScript, Python,
+                                    Java, HTML e CSS.
                                 </p>
                                 <p>
                                     Sólida experiência com frameworks front-end
