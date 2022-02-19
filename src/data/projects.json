@@ -90,7 +90,7 @@
     {
         "id": "13",
         "name": "Cadastro com Angular",
-        "description": "Cadastro de simples de produtos",
+        "description": "Cadastro simples de produtos",
         "content": "Esta é uma aplicação simples de cadastro de produtos. Apesar de não possuir conexão com banco de dados ela conta com um design moderno e com toda a parte de navegação implementada. ",
         "urlName": "angular-crud",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fangular_crud_thumb.png?alt=media&token=e439d83c-976b-4ee8-b3a6-d7b48f4c7c2e",
