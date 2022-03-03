@@ -11,7 +11,7 @@ export function ProjectsLink({ img }: Props) {
     return (
         <div onClick={() => navigate("/projects")} className="ProjectsLink">
             <div className="label">
-                <h2>Meus Projetos Pessois</h2>
+                <h2>Meus Projetos Pessoais</h2>
                 <span>
                     Veja a lista de alguns de meus projetos pessoais de código
                     aberto.
