@@ -51,9 +51,9 @@ export function Home() {
                                     período de Análise e Desenvolvimento de
                                     Sistemas especialista em desenvolvimento de
                                     aplicações completas para web utilizando
-                                    JavaScript JavaScript, TypeScript, React,
-                                    Node, Express Python, Java, HTML, CSS, SQL,
-                                    PostgreSQL e MongoDB.
+                                    JavaScript, TypeScript, React, Node, Express
+                                    Python, Java, HTML, CSS, SQL, PostgreSQL e
+                                    MongoDB.
                                 </p>
                             </div>
                         </Terminal>
