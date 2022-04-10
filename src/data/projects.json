@@ -62,6 +62,21 @@
         ]
     },
     {
+        "id": "20",
+        "name": "Gatsby Blog",
+        "description": "Blog com Gatsby e Netlify CMS",
+        "content": "Este é um Blog desenvolvido com Gatsby, React, Netlify CMS, Styled Components e Algolia Search. Todo o conteúdo do site pode ser gerenciado por um painel administrativo, o qual facilita a criação e deleção de novos posts. O conteúdo do blog é fake e não tem nenhuma relação com a realidade.",
+        "urlName": "gatsby-blog",
+        "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgatsby_blog_thumb.jpg?alt=media&token=13c199da-8952-4121-b733-d29c8280449a",
+        "repositoryLink": "https://github.com/brunohubner/gatsby-blog",
+        "productionLink": "https://brunohubner-gatsby-blog.netlify.app",
+        "extraImages": [
+            "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgatsby_blog_1.jpg?alt=media&token=e0001bda-c631-4456-9b44-a27804f66d86",
+            "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgatsby_blog_2.jpg?alt=media&token=ba72b0b2-d0bb-486c-9728-42810a5175a7",
+            "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgatsby_blog_3.jpg?alt=media&token=f3a868f4-618f-4946-9547-afb76b472e5e"
+        ]
+    },
+    {
         "id": "15",
         "name": "NLW Heat",
         "description": "APP de envio de mansagens em tempo real",

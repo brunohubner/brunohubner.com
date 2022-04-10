@@ -2,6 +2,7 @@
 18-b1news
 17-minha-carteira
 16-admin-template
+20-gatsby-blog
 15-nlw_heat
 14-quiz
 13-angular-crud
