@@ -34,7 +34,7 @@ export function Home() {
                                 </p>
                                 <p>
                                     Sólida experiência com frameworks front-end
-                                    como React, NextJs, GraphQl Apollo Client ,
+                                    como React, NextJs, GraphQl Apollo Client,
                                     Sass, Styled Components e frameworks backend
                                     como Express, GraphQl Apollo Server, Json
                                     Web Token, Bcrypt, TypeORM, Knex Query
@@ -51,7 +51,7 @@ export function Home() {
                                     período de Análise e Desenvolvimento de
                                     Sistemas especialista em desenvolvimento de
                                     aplicações completas para web utilizando
-                                    JavaScript, TypeScript, React, Node, Express
+                                    JavaScript, TypeScript, React, Node, Express,
                                     Python, Java, HTML, CSS, SQL, PostgreSQL e
                                     MongoDB.
                                 </p>
