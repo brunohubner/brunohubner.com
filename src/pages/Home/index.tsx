@@ -24,36 +24,39 @@ export function Home() {
                     <div className="terminalBox">
                         <Terminal>
                             <div className="bio pcBio">
+                                <br />
                                 <p>
-                                    Programador Full Stack, cursando o último
-                                    período de Análise e Desenvolvimento de
-                                    Sistemas especialista em desenvolvimento de
-                                    aplicações completas para web utilizando as
-                                    linguagens JavaScript, TypeScript, Python,
-                                    Java, HTML e CSS.
+                                    Desenvolvedor de Software Full Stack Nodejs,
+                                    cursando Análise e Desenvolvimento de
+                                    Sistemas, especialista no desenvolvimento
+                                    web utilizando Jamstack e suas principais
+                                    tecnologias.
                                 </p>
+                                <br />
                                 <p>
                                     Sólida experiência com frameworks front-end
-                                    como React, NextJs, GraphQl Apollo Client ,
-                                    Sass, Styled Components e frameworks backend
-                                    como Express, GraphQl Apollo Server, Json
-                                    Web Token, Bcrypt, TypeORM, Knex Query
-                                    Builder, Prisma e Mongoose.
+                                    como React, NextJs, Gatsby e GraphQl Apollo
+                                    Client. E frameworks backend como Express,
+                                    Nestjs, GraphQl Apollo Server, TypeORM,
+                                    Mongoose e RabbitMQ.
                                 </p>
+                                <br />
                                 <p>
                                     Além de esperiência com SQL e com os banco
-                                    de dados PostgreSQL, MySQL, MongoDB e Redis.
+                                    de dados PostgreSQL, MySQL, Microsofy SQL
+                                    Server, MongoDB e Redis.
                                 </p>
                             </div>
                             <div className="bio mobileBio">
                                 <p>
-                                    Programador Full Stack, cursando o último
-                                    período de Análise e Desenvolvimento de
-                                    Sistemas especialista em desenvolvimento de
-                                    aplicações completas para web utilizando
-                                    JavaScript, TypeScript, React, Node, Express
-                                    Python, Java, HTML, CSS, SQL, PostgreSQL e
-                                    MongoDB.
+                                    Desenvolvedor de Software Full Stack Nodejs,
+                                    cursando em Análise e Desenvolvimento de
+                                    Sistemas, especialista no desenvolvimento
+                                    web utilizando Jamstack e suas principais
+                                    tecnologias como: JavaScript, TypeScript,
+                                    React, Node, Nestjs, HTML, CSS, SQL,
+                                    PostgreSQL, Microsoft SQL Server, MongoDB e
+                                    RabbitMQ.
                                 </p>
                             </div>
                         </Terminal>
