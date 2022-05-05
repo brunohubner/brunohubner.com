@@ -50,13 +50,12 @@ export function Home() {
                             <div className="bio mobileBio">
                                 <p>
                                     Desenvolvedor de Software Full Stack Nodejs,
-                                    cursando em Análise e Desenvolvimento de
+                                    cursando Análise e Desenvolvimento de
                                     Sistemas, especialista no desenvolvimento
                                     web utilizando Jamstack e suas principais
                                     tecnologias como: JavaScript, TypeScript,
                                     React, Node, Nestjs, HTML, CSS, SQL,
-                                    PostgreSQL, Microsoft SQL Server, MongoDB e
-                                    RabbitMQ.
+                                    PostgreSQL e MongoDB.
                                 </p>
                             </div>
                         </Terminal>
