@@ -26,3 +26,9 @@ yarn-error.log*
 #
 temp
 src/temp/
+
+# ASDF
+!.tool-versions
+
+# VS Code
+!.vscode/settings.json
