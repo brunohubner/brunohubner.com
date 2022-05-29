@@ -9,7 +9,7 @@ export async function getGeoLocationService(): Promise<GeoLocationData> {
     const data = await api
         .get("https://get.geojs.io/v1/ip/geo.json")
         .then(({ data }) => data)
-        .catch(console.log)
+        .catch(() => {})
 
     if (!data) {
         return { address: "Desconecido", ip: "Desconecido" }
