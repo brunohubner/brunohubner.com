@@ -3,7 +3,10 @@ import { Terminal } from "../Terminal"
 import { SendButton } from "../SendButton"
 import { TextareaHTMLAttributes, useState } from "react"
 import { sendMessageService } from "../../services/sendMessageService"
-import { activateBackend } from "../../services/activateBackend"
+import {
+    GeoLocationData,
+    getGeoLocationService
+} from "../../services/getGeoLocationService"
 
 interface Props extends TextareaHTMLAttributes<HTMLTextAreaElement> {
     title: string
@@ -15,6 +18,10 @@ export function Messenger({ title, ...rest }: Props) {
     const [placeholder, setPlaceholder] = useState("")
     const [terminalClicked, setTerminalClicked] = useState(false)
     const [loading, setLoading] = useState(false)
+    const [geoLocation, setGeoLocation] = useState<GeoLocationData>({
+        address: "",
+        ip: ""
+    })
 
     const handleMessage = (message: string) => {
         if (message.length > 3000) return
@@ -24,7 +31,11 @@ export function Messenger({ title, ...rest }: Props) {
     const handleSendMessage = async () => {
         try {
             setLoading(true)
-            await sendMessageService(message)
+            await sendMessageService({
+                message,
+                address: geoLocation.address,
+                ip: geoLocation.ip
+            })
             setPlaceholder("Mensagem enviada para Bruno")
         } catch {
             setPlaceholder("Não foi possível enviar a mensagem")
@@ -35,9 +46,10 @@ export function Messenger({ title, ...rest }: Props) {
         }
     }
 
-    const handleFirstClick = () => {
+    const handleFirstClick = async () => {
         if (!terminalClicked) {
-            activateBackend()
+            const geoLocationData = await getGeoLocationService()
+            setGeoLocation(geoLocationData)
             setTerminalClicked(true)
         }
     }
@@ -51,6 +63,8 @@ export function Messenger({ title, ...rest }: Props) {
                     value={message}
                     onChange={e => handleMessage(e.target.value)}
                     className="textarea"
+                    disabled={loading}
+                    style={{ color: loading ? "#888" : "#fff" }}
                     {...rest}
                 />
                 <div className="sendButton">

@@ -19,7 +19,7 @@ export function Header() {
                 <a
                     href="https://instagram.com/brunohubner01"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     title="@brunohubner01"
                 >
                     <img
@@ -30,7 +30,7 @@ export function Header() {
                 <a
                     href="https://twitter.com/brunohubner01"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     title="@brunohubner01"
                 >
                     <img src={twitterIcon} alt="twitter.com/brunohubner01" />
@@ -38,7 +38,7 @@ export function Header() {
                 <a
                     href="https://linkedin.com/in/brunohubner01"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     title="@brunohubner01"
                 >
                     <img
@@ -49,7 +49,7 @@ export function Header() {
                 <a
                     href="https://github.com/brunohubner"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     title="@brunohubner"
                 >
                     <VscGithubInverted size={32} color="#fff" />

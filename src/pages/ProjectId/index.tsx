@@ -31,7 +31,7 @@ export function ProjectId() {
                             <a
                                 href={project.repositoryLink}
                                 target="_blank"
-                                rel="noreferrer"
+                                rel="noopener noreferrer"
                             >
                                 <Button
                                     label="Código fonte"
@@ -45,7 +45,7 @@ export function ProjectId() {
                             <a
                                 href={project.productionLink}
                                 target="_blank"
-                                rel="noreferrer"
+                                rel="noopener noreferrer"
                             >
                                 <Button
                                     label="Link do Projeto"
