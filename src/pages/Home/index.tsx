@@ -27,35 +27,46 @@ export function Home() {
                                 <br />
                                 <p>
                                     Desenvolvedor de Software Full Stack Nodejs,
-                                    cursando Análise e Desenvolvimento de
-                                    Sistemas, especialista no desenvolvimento
-                                    web utilizando Jamstack e suas principais
-                                    tecnologias.
+                                    formado em Análise e Desenvolvimento de
+                                    Sistemas, especialista no desenvolvimento de
+                                    soluções web utilizando Jamstack e suas
+                                    principais tecnologias.
                                 </p>
                                 <br />
                                 <p>
-                                    Sólida experiência com frameworks front-end
-                                    como React, NextJs, Gatsby e GraphQl Apollo
+                                    Experiência com frameworks frontend como
+                                    React, NextJs, Gatsby e GraphQl Apollo
                                     Client. E frameworks backend como Express,
                                     Nestjs, GraphQl Apollo Server, TypeORM,
                                     Mongoose e RabbitMQ.
                                 </p>
                                 <br />
                                 <p>
-                                    Além de esperiência com SQL e com os banco
-                                    de dados PostgreSQL, MySQL, Microsofy SQL
-                                    Server, MongoDB e Redis.
+                                    Experiência com SQL e com os bancos de dados
+                                    PostgreSQL, MySQL, Microsoft SQL, Server,
+                                    MongoDB e Redis.
+                                </p>
+                                <p>
+                                    Experiência também outras tecnologias muito
+                                    utilizadas no mercado como Microsserviços,
+                                    Docker, Azure Devops e AWS.
+                                </p>
+                                <p>
+                                    Nas horas vagas gosto de brincar um
+                                    pouquinho com Data Science usando Python e
+                                    com Blockchains e criptomoedas, mas apenas
+                                    por hobby.
                                 </p>
                             </div>
                             <div className="bio mobileBio">
                                 <p>
                                     Desenvolvedor de Software Full Stack Nodejs,
-                                    cursando Análise e Desenvolvimento de
+                                    formado em Análise e Desenvolvimento de
                                     Sistemas, especialista no desenvolvimento
                                     web utilizando Jamstack e suas principais
                                     tecnologias como: JavaScript, TypeScript,
-                                    React, Node, Nestjs, HTML, CSS, SQL,
-                                    PostgreSQL e MongoDB.
+                                    React, Node, HTML, CSS, SQL, Python, Docker,
+                                    Azure Devops e AWS.
                                 </p>
                             </div>
                         </Terminal>
