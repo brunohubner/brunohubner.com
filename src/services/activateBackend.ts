@@ -1,10 +1,10 @@
-import { api } from "../http/api"
-import { headers } from "../http/headers"
+import { api } from '../http/api';
+import { headers } from '../http/headers';
 
-export function activateBackend(): void {
-    try {
-        api.get("/", headers)
-    } catch {
-        //
-    }
+export async function activateBackend(): Promise<void> {
+  try {
+    await api.get('/', headers);
+  } catch {
+    //
+  }
 }

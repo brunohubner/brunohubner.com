@@ -1,38 +1,38 @@
-import { createContext, ReactNode, useContext, useState } from "react"
+import { createContext, ReactNode, useContext, useState } from 'react';
 
 interface Props {
-    children: ReactNode
+  children: ReactNode;
 }
 
 interface Context {
-    isOpen: boolean
-    toggleMenu(): void
+  isOpen: boolean;
+  toggleMenu(): void;
 }
 
 const initialState = {
-    isOpen: false,
-    toggleMenu() {}
-}
+  isOpen: false,
+  toggleMenu() {}
+};
 
-const ToggleMenuContext = createContext<Context>(initialState)
+const ToggleMenuContext = createContext<Context>(initialState);
 
 export function useToggleMenu() {
-    return useContext(ToggleMenuContext)
+  return useContext(ToggleMenuContext);
 }
 
 export function ToggleMenuProvider({ children }: Props) {
-    const [isOpen, setIsOpen] = useState(initialState.isOpen)
+  const [isOpen, setIsOpen] = useState(initialState.isOpen);
 
-    const toggleMenu = () => setIsOpen(old => !old)
+  const toggleMenu = () => setIsOpen((old) => !old);
 
-    return (
-        <ToggleMenuContext.Provider
-            value={{
-                isOpen,
-                toggleMenu
-            }}
-        >
-            {children}
-        </ToggleMenuContext.Provider>
-    )
+  return (
+    <ToggleMenuContext.Provider
+      value={{
+        isOpen,
+        toggleMenu
+      }}
+    >
+      {children}
+    </ToggleMenuContext.Provider>
+  );
 }
