@@ -61,7 +61,7 @@ export function ProjectId() {
           </div>
           <p>{project.content}</p>
           {project.extraImages.map((image) => (
-            <div className="imageBox imageExtras">
+            <div key={image} className="imageBox imageExtras">
               <img src={image} alt={project.name} />
             </div>
           ))}

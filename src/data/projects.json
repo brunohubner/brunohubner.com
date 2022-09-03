@@ -7,7 +7,7 @@
         "urlName": "billing-cycles",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fbilling_cycles_thumb.png?alt=media&token=63acbe67-dd4f-4d83-933b-3c6ed8d1c5dd",
         "repositoryLink": "https://github.com/brunohubner/billing-cycles",
-        "productionLink": "https://brunohubner-billing-cycles.netlify.app",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fbilling_cycles_1.png?alt=media&token=e6ba2ab2-2061-44a0-b715-85c9f90b4c20",
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fbilling_cycles_2.png?alt=media&token=271c12d8-16c2-4897-b489-1704146b1899"
@@ -21,7 +21,7 @@
         "urlName": "b1news",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fb1news_thumb.png?alt=media&token=682809cc-1683-4580-a181-98b3bbb1c358",
         "repositoryLink": "https://github.com/brunohubner/b1news",
-        "productionLink": "https://brunohubner-b1news.netlify.app",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fb1news_1.png?alt=media&token=c80cd5c2-6a6f-4e13-a1d3-b85131fd6d06",
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fb1news_2.png?alt=media&token=92a979d2-b424-4e4e-ae6c-2f98fd8c20a8",
@@ -39,7 +39,7 @@
         "urlName": "minha-carteira",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fminha_carteira_thumb.png?alt=media&token=0066b02a-e10d-4b81-96fe-18aafc26a44b",
         "repositoryLink": "https://github.com/brunohubner/minha-carteira",
-        "productionLink": "https://brunohubner-minha-carteira.netlify.app",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fminha_carteira_1.png?alt=media&token=0d41c148-bc6b-4917-9725-3438c6354abc",
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fminha_carteira_2.png?alt=media&token=964c1de1-cb0a-49c7-99e0-eb89796e4fe8",
@@ -55,7 +55,7 @@
         "urlName": "admin-template",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fadmin_template_thumb.png?alt=media&token=0e680e14-1dcf-414a-bb38-26dde7acdcde",
         "repositoryLink": "https://github.com/brunohubner/admin-template",
-        "productionLink": "https://brunohubner-admin-template.vercel.app",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fadmin_template_1.png?alt=media&token=872fa993-feee-4b8d-bd91-a420b74c149b",
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fadmin_template_2.png?alt=media&token=c510decc-c09b-4500-867e-f638adf897b5"
@@ -69,7 +69,7 @@
         "urlName": "gatsby-blog",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgatsby_blog_thumb.jpg?alt=media&token=13c199da-8952-4121-b733-d29c8280449a",
         "repositoryLink": "https://github.com/brunohubner/gatsby-blog",
-        "productionLink": "https://brunohubner-gatsby-blog.netlify.app",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgatsby_blog_1.jpg?alt=media&token=e0001bda-c631-4456-9b44-a27804f66d86",
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgatsby_blog_2.jpg?alt=media&token=ba72b0b2-d0bb-486c-9728-42810a5175a7",
@@ -97,7 +97,7 @@
         "urlName": "quiz",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fquiz_thumb.png?alt=media&token=17e08864-55f5-4df4-b71f-9b133ec1c638",
         "repositoryLink": "https://github.com/brunohubner/quiz",
-        "productionLink": "https://brunohubner-quiz.vercel.app",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fquiz_1.png?alt=media&token=106d7f25-4678-43f7-b37c-a51e35f4e0ba"
         ]
@@ -110,7 +110,7 @@
         "urlName": "angular-crud",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fangular_crud_thumb.png?alt=media&token=e439d83c-976b-4ee8-b3a6-d7b48f4c7c2e",
         "repositoryLink": "https://github.com/brunohubner/angular-crud",
-        "productionLink": "https://brunohubner.github.io/angular-crud",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fangular_crud_1.png?alt=media&token=f9bf563e-60fb-44b6-b1b3-d7a520f3eafe"
         ]
@@ -123,7 +123,7 @@
         "urlName": "ds-vendas",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fds_vendas_thumb.png?alt=media&token=64cf55c5-8715-4947-ba0c-e73ef918322c",
         "repositoryLink": "https://github.com/brunohubner/sds5",
-        "productionLink": "https://brunohubner-dsvendas.netlify.app",
+        "productionLink": "",
         "extraImages": []
     },
     {
@@ -134,7 +134,7 @@
         "urlName": "google-glass",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgoogle_glass_thumb.png?alt=media&token=4bbece80-ad14-4425-b7ff-39fe886bcaad",
         "repositoryLink": "https://github.com/brunohubner/glass",
-        "productionLink": "https://brunohubner.github.io/glass",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgoogle_glass_1.png?alt=media&token=11712c19-7ce6-4ef4-9dd5-c5c77ca3b35e",
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fgoogle_glass_2.png?alt=media&token=255b91ea-0266-46cc-b2f8-8a0d57ec1e91"
@@ -148,7 +148,7 @@
         "urlName": "flappy-bird",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fflappy_bird_thumb.png?alt=media&token=7a10b9d0-7bb9-4ba5-9140-83117c9998c8",
         "repositoryLink": "https://github.com/brunohubner/flappy-bird",
-        "productionLink": "https://brunohubner.github.io/flappy-bird",
+        "productionLink": "",
         "extraImages": []
     },
     {
@@ -159,7 +159,7 @@
         "urlName": "petshop-prototype",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fpetshop_thumb.png?alt=media&token=bae96ae3-fc29-447f-9858-17ae29f65d5b",
         "repositoryLink": "https://github.com/brunohubner/petshop-prototype",
-        "productionLink": "https://brunohubner.github.io/petshop-prototype",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fpetshop_1.png?alt=media&token=ea689063-ec30-4b7c-aec6-af0fb9fe1176"
         ]
@@ -172,7 +172,7 @@
         "urlName": "surf-forecast",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fsurf_forecast_thumb.png?alt=media&token=28a1d55e-be5e-4960-9b03-f51b5e584d80",
         "repositoryLink": "https://github.com/brunohubner/surf-forecast",
-        "productionLink": "https://brunohubner-surf-forecast.herokuapp.com/docs",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fsurf_forecast_1.png?alt=media&token=e967589c-2c0a-466b-86b6-893552ae17e2"
         ]
@@ -196,7 +196,7 @@
         "urlName": "sales-api",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fsales_api_thumb.png?alt=media&token=09665359-b2dd-46c6-8396-ca5bc9783bc4",
         "repositoryLink": "https://github.com/brunohubner/sales-api",
-        "productionLink": "https://brunohubner-sales.herokuapp.com",
+        "productionLink": "",
         "extraImages": []
     },
     {
@@ -207,7 +207,7 @@
         "urlName": "monty-hall",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fmonty_hall_thumb.png?alt=media&token=03e6013e-d14e-401e-97e9-d11e6fdf26ba",
         "repositoryLink": "https://github.com/brunohubner/monty-hall",
-        "productionLink": "https://brunohubner-monty-hall.vercel.app",
+        "productionLink": "",
         "extraImages": [
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fmonty_hall_1.png?alt=media&token=91fb7b1b-137a-4956-97fc-8ff451e09ba7",
             "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fmonty_hall_2.png?alt=media&token=9fb1bdae-7050-4406-b647-baaf9c13cd7e"
@@ -221,7 +221,7 @@
         "urlName": "money-app",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fmoney_app.png?alt=media&token=284f77e5-7277-4380-b035-7e021c4d0992",
         "repositoryLink": "https://github.com/brunohubner/money-app",
-        "productionLink": "https://brunohubner.github.io/money-app",
+        "productionLink": "",
         "extraImages": []
     },
     {
@@ -232,7 +232,7 @@
         "urlName": "todoapp",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Ftodoapp_thumb.png?alt=media&token=1ec88250-b72f-4dff-a41c-4f3775074c8a",
         "repositoryLink": "https://github.com/brunohubner/todoapp",
-        "productionLink": "https://brunohubner.github.io/todoapp",
+        "productionLink": "",
         "extraImages": []
     },
     {
@@ -243,7 +243,7 @@
         "urlName": "pokedex",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fpokedex_thumb.png?alt=media&token=8a554e96-d009-4641-9933-7bc841dc1a72",
         "repositoryLink": "https://github.com/brunohubner/pokedex",
-        "productionLink": "https://brunohubner.github.io/pokedex",
+        "productionLink": "",
         "extraImages": []
     },
     {
@@ -254,7 +254,7 @@
         "urlName": "vue-calculator",
         "thumbnail": "https://firebasestorage.googleapis.com/v0/b/bruno-hubner.appspot.com/o/projects%2Fvue_calculator_thumb.png?alt=media&token=027b10eb-de0b-4a69-bea0-552092f125b7",
         "repositoryLink": "https://github.com/brunohubner/vue-calculator",
-        "productionLink": "https://brunohubner.github.io/vue-calculator",
+        "productionLink": "",
         "extraImages": []
     }
 ]
