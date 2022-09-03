@@ -1,5 +1,4 @@
 import { api } from '../http/api';
-import { headers } from '../http/headers';
 
 export interface SendMessageData {
   message: string;
@@ -8,6 +7,6 @@ export interface SendMessageData {
 }
 
 export async function sendMessageService(data: SendMessageData): Promise<void> {
-  const resp = await api.post('/message', data, headers);
+  const resp = await api.post('/message', data);
   if (resp.status !== 204) throw new Error();
 }

@@ -1,4 +1,4 @@
-import { api } from '../http/api';
+import axios from 'axios';
 
 export interface GeoLocationData {
   address: string;
@@ -6,7 +6,7 @@ export interface GeoLocationData {
 }
 
 export async function getGeoLocationService(): Promise<GeoLocationData> {
-  const data = await api
+  const data = await axios
     .get('https://get.geojs.io/v1/ip/geo.json')
     .then(({ data }) => data)
     .catch(() => {});
